@@ -163,7 +163,14 @@ void __fastcall TForm1::Czcionka1Click(TObject *Sender)
 
 void __fastcall TForm1::Oprogramie1Click(TObject *Sender)
 {
-        Form2 -> Showmodal();
+        Form2 -> ShowModal();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Zapraszamnabloga1Click(TObject *Sender)
+{
+        ShellExecute(Null,"open", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", NULL, NULL, SW_SHOWNORMAL);       
 }
 //---------------------------------------------------------------------------
 

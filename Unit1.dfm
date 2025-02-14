@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 386
+  Top = 22
   Width = 1167
   Height = 1240
   Caption = 'NotatnikYT'
@@ -103,6 +103,7 @@ object Form1: TForm1
         end
         object Zapraszamnabloga1: TMenuItem
           Caption = 'Zapraszam na bloga'
+          OnClick = Zapraszamnabloga1Click
         end
       end
     end

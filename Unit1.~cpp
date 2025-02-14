@@ -163,7 +163,7 @@ void __fastcall TForm1::Czcionka1Click(TObject *Sender)
 
 void __fastcall TForm1::Oprogramie1Click(TObject *Sender)
 {
-        Form2 -> Visible = true;
+        Form2 -> Showmodal();
 }
 //---------------------------------------------------------------------------
 

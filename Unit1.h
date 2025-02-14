@@ -53,6 +53,7 @@ __published:	// IDE-managed Components
         void __fastcall Zawijaniewierszy1Click(TObject *Sender);
         void __fastcall Czcionka1Click(TObject *Sender);
         void __fastcall Oprogramie1Click(TObject *Sender);
+        void __fastcall Zapraszamnabloga1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
